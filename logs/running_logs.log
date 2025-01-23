@@ -144,3 +144,34 @@ x==========x]
 [2025-01-23 10:10:30,311: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2025-01-23 21:25:42,140: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-23 21:25:42,140: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-23 21:25:42,140: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-23 21:25:42,140: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-23 21:25:42,152: INFO: common: created directory at: artifacts]
+[2025-01-23 21:25:42,153: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-23 21:25:42,154: INFO: data_ingestion: File already exists of size: ~ 12 KB]
+[2025-01-23 21:25:42,166: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-23 21:25:42,166: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-23 21:25:42,166: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-23 21:25:42,174: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-23 21:25:42,174: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-23 21:25:42,174: INFO: common: created directory at: artifacts]
+[2025-01-23 21:25:42,180: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-23 21:25:42,230: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-23 21:25:42,230: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-01-23 21:25:42,230: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-23 21:25:42,242: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-23 21:25:42,245: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-23 21:25:42,245: INFO: common: created directory at: artifacts]
+[2025-01-23 21:25:42,250: INFO: common: created directory at: artifacts/data_transformation]
+[2025-01-23 21:25:42,283: INFO: data_transformation: Splited data into training and testing sets]
+[2025-01-23 21:25:42,288: INFO: data_transformation: (379, 15)]
+[2025-01-23 21:25:42,288: INFO: data_transformation: (127, 15)]
+[2025-01-23 21:25:42,288: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]

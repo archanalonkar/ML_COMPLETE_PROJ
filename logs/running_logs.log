@@ -79,3 +79,68 @@ Source-Age: 0
 [2025-01-11 12:45:17,139: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-01-22 11:40:23,624: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-22 11:40:23,642: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 11:40:23,661: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-22 11:40:23,661: INFO: common: created directory at: artifacts]
+[2025-01-22 11:40:23,661: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-22 11:47:13,426: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-22 11:47:13,441: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 11:47:13,446: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-22 11:47:13,446: INFO: common: created directory at: artifacts]
+[2025-01-22 11:52:30,107: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-22 11:52:30,109: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 11:52:30,113: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-22 11:52:30,114: INFO: common: created directory at: artifacts]
+[2025-01-22 17:46:54,124: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-22 17:46:54,136: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 17:46:54,144: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-22 17:46:54,144: INFO: common: created directory at: artifacts]
+[2025-01-23 09:53:11,965: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-23 09:53:11,965: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-23 09:53:11,973: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-23 09:53:11,980: INFO: common: created directory at: artifacts]
+[2025-01-23 09:53:11,993: INFO: common: created directory at: artifacts/data_transformation]
+[2025-01-23 09:53:12,015: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-23 09:53:12,023: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-23 09:53:12,031: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-23 09:53:12,031: INFO: common: created directory at: artifacts]
+[2025-01-23 09:53:12,031: INFO: common: created directory at: artifacts/data_transformation]
+[2025-01-23 09:53:12,075: INFO: 200432129: Splited data into training and testing sets]
+[2025-01-23 09:53:12,083: INFO: 200432129: (379, 15)]
+[2025-01-23 09:53:12,083: INFO: 200432129: (127, 15)]
+[2025-01-23 10:08:11,997: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-23 10:08:12,030: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-23 10:08:12,052: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-23 10:08:12,071: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-23 10:08:12,071: INFO: common: created directory at: artifacts]
+[2025-01-23 10:08:12,071: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-23 10:08:12,075: INFO: data_ingestion: File already exists of size: ~ 12 KB]
+[2025-01-23 10:08:12,159: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-23 10:08:12,159: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-23 10:08:12,159: ERROR: main: name 'DataValidationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\Archana\Desktop\ML_Project\ML_COMPLETE_PROJ\main.py", line 23, in <module>
+    obj = DataValidationTrainingPipeline()
+NameError: name 'DataValidationTrainingPipeline' is not defined
+[2025-01-23 10:10:30,248: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-23 10:10:30,255: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-23 10:10:30,255: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-23 10:10:30,262: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-23 10:10:30,262: INFO: common: created directory at: artifacts]
+[2025-01-23 10:10:30,262: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-23 10:10:30,262: INFO: data_ingestion: File already exists of size: ~ 12 KB]
+[2025-01-23 10:10:30,269: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-23 10:10:30,270: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-23 10:10:30,273: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-23 10:10:30,275: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-23 10:10:30,280: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-23 10:10:30,281: INFO: common: created directory at: artifacts]
+[2025-01-23 10:10:30,282: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-23 10:10:30,311: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]

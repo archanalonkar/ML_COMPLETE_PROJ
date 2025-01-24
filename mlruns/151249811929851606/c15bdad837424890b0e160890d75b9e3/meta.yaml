@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/151249811929851606/c15bdad837424890b0e160890d75b9e3/artifacts
+end_time: 1737711789088
+entry_point_name: ''
+experiment_id: '151249811929851606'
+lifecycle_stage: active
+run_id: c15bdad837424890b0e160890d75b9e3
+run_name: selective-conch-868
+run_uuid: c15bdad837424890b0e160890d75b9e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737711782897
+status: 3
+tags: []
+user_id: Archana

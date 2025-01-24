@@ -15,3 +15,22 @@ data_validation:
 data_transformation:
   root_dir: artifacts/data_transformation
   data_path: artifacts/data_ingestion/hou_all.csv
+
+model_trainer:
+  root_dir: artifacts/model_trainer
+  train_data_path: artifacts/data_transformation/train.csv
+  test_data_path: artifacts/data_transformation/test.csv
+  model_name: model.joblib
+
+model_evaluation:
+  root_dir: artifacts/model_evaluation
+  test_data_path: artifacts/data_transformation/test.csv
+  model_path: artifacts/model_trainer/model.joblib
+  metric_file_name: artifacts/model_evaluation/metrics.json
+
+
+
+mlflow_info:
+  tracking_uri: https://dagshub.com/archanalonkar/ML_COMPLETE_PROJ.mlflow
+  tracking_username: archanalonkar
+  tracking_password: 799d5c2ca62fdceb37551730c817faa20a64b990

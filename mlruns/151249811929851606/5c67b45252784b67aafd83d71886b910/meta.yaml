@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/151249811929851606/5c67b45252784b67aafd83d71886b910/artifacts
+end_time: 1737711525207
+entry_point_name: ''
+experiment_id: '151249811929851606'
+lifecycle_stage: active
+run_id: 5c67b45252784b67aafd83d71886b910
+run_name: unique-squirrel-36
+run_uuid: 5c67b45252784b67aafd83d71886b910
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737711525147
+status: 4
+tags: []
+user_id: Archana

@@ -396,3 +396,10 @@ x==========x]
 [2025-03-29 11:52:16,816: INFO: _internal: [33mPress CTRL+C to quit[0m]
 [2025-03-29 11:52:26,583: INFO: _internal: 192.168.1.65 - - [29/Mar/2025 11:52:26] "GET / HTTP/1.1" 200 -]
 [2025-03-29 11:52:26,687: INFO: _internal: 192.168.1.65 - - [29/Mar/2025 11:52:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-04-08 18:23:37,980: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.121:8080]
+[2025-04-08 18:23:37,980: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-04-08 18:23:45,220: INFO: _internal: 192.168.0.121 - - [08/Apr/2025 18:23:45] "GET / HTTP/1.1" 200 -]
+[2025-04-08 18:23:45,324: INFO: _internal: 192.168.0.121 - - [08/Apr/2025 18:23:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
